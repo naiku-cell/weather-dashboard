@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background: url('https://png.pngtree.com/background/20230427/original/pngtree-clouds-above-a-bright-sky-picture-image_2494866.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #0b63c9;
+}
+
+.weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.weather-info h2 {
+    margin: 10px 0;
+}
